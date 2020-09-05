@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="stylee.css">
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Module 2 solution</title>
+<style >
+{
+  box-sizing: border-box;
+}
+body{
+background-color:#00A25A25;
+}
+
+
+h1 {
+	font-size: 30px;
+	font-family:fantasy;
+	text-align: center;
+	color: red;
+	margin-bottom: 20px;
+        
+}
+
+p {
+	padding: 10px 15px 20px 10px;
+	font-family: all;
+	font-size: 20px;
+	position: relative;
+}
+
+.section { 
+   	border: 5px solid blue;
+   	margin-top: 20px; 
+   	margin-right: 20px;
+   	background-color: rgb(100, 200, 90); 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: italic;
+	text-align: center;
+float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#pp1 {
+	background-color: rgb(250, 80, 150);
+	color: rgb(0, 0, 0);
+}
+#pp2 {
+	background-color: rgb(140, 10, 30);
+	color: rgb(250, 250, 250);
+}
+#pp3 {
+	background-color: rgb(200, 150, 110);
+	color: rgb(0, 0, 1100);
+}
+}
+
+.row {
+	width: 100%;
+}
+
+/*  PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/********* VIEW IN tablet **** **/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+  	 float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+  	 float: left;
+    width: 100%;
+  }
+}
+/***********for very small screens or mobile devices ***********/
+@media (max-width: 767px)  {
+  
+  .col-sx-13{
+  	float: left;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+<div class='row'>
+	<div class='col-lg-4 col-md-6 sx-12'>
+		<div class='section'>
+			<span id='pp1'>Chicken</span>
+				<p>A chicken is a kind of domesticated bird.it is raised in many places for its meat and eggs.😁😋😋😋😋😋😍 they are usaully kept by humans as livestock💙💜.most breeds of a chicken can fly for a short distance 💚They lie in kingdom Animalia ;phylum Chordata;Class Aves; Order Galliformes; Family phasianidae ;Genus Gallus ;Species G.gallus; sub-species G.domesticus; and its trinomial name is Gallus gallus domesticus(Linnaeus,1758)❤🧡💛💚💙💜🤎💞</p>
+</p>
+		</div>
+	</div>
+	<div class='col-lg-4 col-md-6 sx-12'>
+		<div class='section'>
+			<span id='pp2'>Beef</span>
+				<p>Beef is a flesh of  a cow,bull,or ox,used as food🥣🥣🍷🍷😁mainly mongolian beef is a dish served in chinese restaurants consisting of sliced beef,typically flank steak,usaully made with onions.🧅🧅🧅🧅🧅 The beef is commonly paired with scallions or mixed vegetables and is often not spicy..the dish is often served over steamed rice,or in the US,over crispy fried cellophane noodles🙂🙂 </p>
+		</div>
+	</div>
+	<div class='col-lg-4 col-md-12 sx-12'>
+		<div class='section'>
+			<span id='pp3'>Sushi</span>
+				<p>Sushi is a japanese dish of prepared vinegared rice,usaully with some sugar and salt,accompanying a variety of ingredients, such as seafood,often raw, and even vegetables. Styles of sushi and its preparation vary widely,but the one key ingredient is "sushi rice",also reffered to as shari , or Sumeshi..❤💙💙💜💜❣ </p>
+</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
